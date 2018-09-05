@@ -23,6 +23,7 @@ Todo.findOne({
     console.log('Todo', todo);
 });
  */
+
 Todo.findById(id). then((todo) => {
     if (!todo) {
         return console.log('Id not found');
